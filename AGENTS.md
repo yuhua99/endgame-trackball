@@ -25,7 +25,8 @@ Fork of the efog Endgame trackball: replace the stock encoder with side rollers 
 ## Encoder: TTC 1035111112000
 TTC (Huizhou Trantek) 103 series conventional encoder, through shaft (直通轴). Sold as "TTC 藍芯 5mm"; official installation height is 5.1 mm (TTC has no 5.0 mm part).
 - 24 detents / 12 pulses, A/B two-phase, hex bore 1.74±0.02 mm, torque 14–26 gf·cm.
-- Source: https://www.ttc9.com/productdetails/34.html. No public datasheet; pin pitch and footprint are unverified. Third-party 5 mm STEP (marathon-os.com "ttc h5mm") gives body ~11.68 × 5.00 × 12.78 mm. Flag footprint dimensions as assumptions when they drive geometry.
+- Official outline drawing: `ref/ttc_103_drawing.png` (from https://www.ttc9.com/productdetails/34.html). Gives mounting-lug span 11.60 mm, installation height X±0.1 (shaft center to PCB), hex 3-X±0.02. Signal pin pitch is not dimensioned; scaled from the drawing ≈ 2.5 mm.
+- No public datasheet; pinout (which pin is common) is not on the drawing. Third-party 5 mm STEP (marathon-os.com "ttc h5mm") gives body ~11.68 × 5.00 × 12.78 mm.
 
 ## Workflow
 - CAD: use the `cad` skill. PCB: use the `pcb` skill.
