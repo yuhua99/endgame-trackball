@@ -7,7 +7,6 @@ Fork of the efog Endgame trackball: replace the stock encoder with side rollers 
 - `../endgame-trackball-hardware/` — stock KiCad (separate repo, read-only). Motherboard is rev7 (`trackball.kicad_pcb` in that repo is rev10; outline and encoder FPC are close enough to use as reference); stock encoder board `encoders-upgrade/encoders_upgrade.kicad_pcb` (EC05E encoder + 8P 0.5 mm FPC).
 - Repo root — our outputs: `top_side_roller.step`, `bottom_side_roller.step`, `side_roller_d*.step`, `ttc_encoder_daughter.kicad_*`.
 - `todo.md` — open work. Read before starting; tick items when done.
-- `README.md` — geometry spec, currently stale (e.g. roller X). Measure current values from the STEP files; update README in the same commit as geometry changes.
 
 ## Scope
 - Change: top/bottom shell, roller, encoder daughter PCB.
