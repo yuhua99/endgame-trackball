@@ -78,7 +78,7 @@
 	(net 2 "ENC_A")
 	(net 3 "ENC_B")
 	(net 4 "1V8")
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "endgame:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "300d8848-3531-4bf1-b525-13d2e42d46c3")
 		(at 103 105)
@@ -128,6 +128,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.85 0)
@@ -148,7 +149,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "endgame:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "49a0d6df-ab36-457d-b8d7-779296cb32f2")
 		(at 97 105)
@@ -198,6 +199,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.85 0)
@@ -218,7 +220,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "easyeda2kicad:FPC-SMD_8P-P0.50_JS_AFH34-S08FIA-1H"
+	(footprint "endgame:FPC-SMD_8P-P0.50_JS_AFH34-S08FIA-1H"
 		(layer "F.Cu")
 		(uuid "be3f4713-f6d6-49ca-9139-bbd7c175381b")
 		(at 100 109 180)
@@ -616,7 +618,7 @@
 			)
 		)
 	)
-	(footprint "TTC_1035111112000"
+	(footprint "endgame:TTC_1035111112000"
 		(layer "F.Cu")
 		(uuid "f2626ef5-4c82-4d50-916b-81e375e57027")
 		(at 100 100)

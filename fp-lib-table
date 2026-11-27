@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "endgame")(type "KiCad")(uri "${KIPRJMOD}/endgame.pretty")(options "")(descr "Project footprints"))
+)

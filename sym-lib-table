@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "endgame")(type "KiCad")(uri "${KIPRJMOD}/endgame.kicad_sym")(options "")(descr "Project symbols"))
+)
