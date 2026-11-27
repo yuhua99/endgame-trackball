@@ -18,7 +18,6 @@ lug holes    2 × 1.8 (X) × 2.1 (Y), centers at X = ±4.5
 
 ## Fasteners and magnets
 Stock efog hardware, reused.
-- Screw M2×4 ISO 7380 (button head): head Ø3.5, height 1.1 (ISO 7380-1 nominal).
 - Heat-set insert M2×3.5×2.5: OD 3.5, length 2.5.
 - Magnet Ø4×2.
 
