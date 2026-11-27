@@ -18,7 +18,7 @@ Fork of the efog Endgame trackball: replace the stock encoder with side rollers 
 
 ## Manufacturing
 - Shells and rollers: JLCPCB MJF nylon (PA12). Size walls, clearances, and press fits for MJF, not FDM.
-- Roller is one MJF part (`side_roller_d14.step`): Ø14 grooved drum, Ø4 stub journals at both ends, printed hex shaft into the encoder.
+- Roller is one MJF part (`side_roller_d14.step`): Ø14 grooved drum, Ø4 stub journals at both ends, printed hex shaft into the encoder. Printed hex is intentional: no off-the-shelf metal 1.7 mm hex shaft exists.
 - Daughter PCB: JLCPCB, 1.6 mm.
 - Hardware (reuse stock parts only): heat-set insert M2×3.5×2.5, M2×4 ISO7380 screw, magnet Ø4×2.
 
