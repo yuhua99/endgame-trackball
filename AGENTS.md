@@ -40,4 +40,4 @@ lug holes    2 × 1.8 (X) × 2.1 (Y), centers at X = ±4.5
 - CAD: use the `cad` skill. PCB: use the `pcb` skill.
 - KiCad is 9.0 (`CAD_KICAD_CLI=/usr/bin/kicad-cli`) for DRC, ERC, zone refill, and exports. cad's nightly (needed for `kicad_pcb.edit`) does not run here (glibc 2.35 < 2.36), so edit `.kicad_pcb` / `.kicad_sch` as text and keep them in KiCad 9 format.
 - Measure fits against `original/` and `endgame_motherboard_3d.step`; report clearances in mm.
-- Commit each finished step without asking.
+- Commit each finished step without asking. Messages use Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
