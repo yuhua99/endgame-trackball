@@ -25,8 +25,16 @@ Fork of the efog Endgame trackball: replace the stock encoder with side rollers 
 ## Encoder: TTC 1035111112000
 TTC (Huizhou Trantek) 103 series conventional encoder, through shaft (直通轴). Sold as "TTC 藍芯 5mm"; official installation height is 5.1 mm (TTC has no 5.0 mm part).
 - 24 detents / 12 pulses, A/B two-phase, hex bore 1.74±0.02 mm, torque 14–26 gf·cm.
-- Official outline drawing: `ref/ttc_103_drawing.png` (from https://www.ttc9.com/productdetails/34.html). Gives mounting-lug span 11.60 mm, installation height X±0.1 (shaft center to PCB), hex 3-X±0.02. Signal pin pitch is not dimensioned; scaled from the drawing ≈ 2.5 mm.
-- No public datasheet; pinout (which pin is common) is not on the drawing. Third-party 5 mm STEP (marathon-os.com "ttc h5mm") gives body ~11.68 × 5.00 × 12.78 mm.
+- Outline: `ref/ttc_103_drawing.png` (TTC, from https://www.ttc9.com/productdetails/34.html). "安装脚距 11.60" is the splayed lug-tip width, not the PCB hole spacing. Installation height = PCB surface to shaft center.
+- TTC publishes no PCB layout. TTC 103 / E203, Alps EC10E and Kailh mouse encoders share one mounting pattern (drop-in interchangeable); use it:
+
+```
+signal pins  3 × Ø1.0 hole, pitch 2.5 (A, B, C)
+lug holes    2 × 1.8 (X) × 2.1 (Y), centers at X = ±4.5
+             lug row offset 2.0 from the signal pin row (toward the body)
+```
+  Sources: `ref/alps_ec10e_mounting_holes.png`, `ref/alps_ec10e_dimensions.png` (Alps EC10E catalog), `ref/kailh_cen975512r13_pcb_layout.png` (Kailh 5.5 mm spec, same numbers).
+- Pinout: common C is an end pin, not the middle. Alps front view reads A B C. Working reference footprint (github.com/christrotter/mouse-encoder-pcb, tested with Alps/TTC/Kailh), top view: lugs at Y=+1, pins at Y=−1, A at X=−2.5, B at 0, C (GND) at X=+2.5. Swapping A/B only reverses scroll direction.
 
 ## Workflow
 - CAD: use the `cad` skill. PCB: use the `pcb` skill.
