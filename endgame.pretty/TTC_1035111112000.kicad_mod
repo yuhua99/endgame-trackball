@@ -62,7 +62,7 @@
 	)
 	(fp_text user "C"
 		(at 2.5 -1.4 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "43c81474-e039-4628-8ad2-dc14700f27d8")
 		(effects
 			(font
@@ -73,7 +73,7 @@
 	)
 	(fp_text user "B"
 		(at 0 -1.4 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "49bad0bd-fa1f-4eeb-832f-885f3a36e3cf")
 		(effects
 			(font
@@ -84,7 +84,7 @@
 	)
 	(fp_text user "A"
 		(at -2.5 -1.4 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "5a1bb416-4fa0-4b18-8ceb-9f63f816af28")
 		(effects
 			(font
