@@ -9,4 +9,5 @@
 - [x] B.Cu GND zone refilled; KiCad 9 DRC/ERC clean (ERC keeps the intended 1V8 single-label warning).
 - [x] J1 pin 1 carries 1V8 like the stock encoder board (unused on this board).
 - [x] Bottom shell: filled the 4 exterior hex recesses, the countersunk hole above the lens, the two blind holes at (±30.17, −40.38) and the 0.01 mm floor bumps around them.
+- [x] Daughter PCB and roller drop in from above as one unit and snap in place: no screw or locating pin, shorter board, open lead channels, snap hooks at the PCB ends, a snap clip for the outer journal; PCB and roller moved inward so the encoder clears the outer wall.
 - [ ] Before fab: export Gerbers, drill files and PCB STEP for JLCPCB with kicad-cli, and run a final interference check of top shell, bottom shell, rollers and daughter PCB.
